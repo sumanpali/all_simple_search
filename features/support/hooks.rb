@@ -15,6 +15,7 @@ end
 
 Before do
   @browser = Watir::Browser.new target_browser
+  @browser.window.maximize
 end
 
 
